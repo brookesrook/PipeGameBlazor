@@ -1,6 +1,0 @@
-C:\Users\Brooke\Documents\Portfolio\Pipe Game\PipeGameBlazor\obj\Debug\net8.0\PipeGameBlazor.csproj.AssemblyReference.cache
-C:\Users\Brooke\Documents\Portfolio\Pipe Game\PipeGameBlazor\obj\Debug\net8.0\PipeGameBlazor.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Brooke\Documents\Portfolio\Pipe Game\PipeGameBlazor\obj\Debug\net8.0\PipeGameBlazor.AssemblyInfoInputs.cache
-C:\Users\Brooke\Documents\Portfolio\Pipe Game\PipeGameBlazor\obj\Debug\net8.0\PipeGameBlazor.AssemblyInfo.cs
-C:\Users\Brooke\Documents\Portfolio\Pipe Game\PipeGameBlazor\obj\Debug\net8.0\PipeGameBlazor.csproj.CoreCompileInputs.cache
-C:\Users\Brooke\Documents\Portfolio\Pipe Game\PipeGameBlazor\obj\Debug\net8.0\PipeGameBlazor.MvcApplicationPartsAssemblyInfo.cache
