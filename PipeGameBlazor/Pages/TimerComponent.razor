@@ -1,0 +1,17 @@
+@page "/timer"
+
+<div>@timerService.TimerText</div>
+
+@code {
+    private TimerService timerService = new TimerService();
+
+    protected override void OnInitialized()
+    {
+        timerService.Start();
+    }
+
+    public void Dispose()
+    {
+        timerService.Dispose();
+    }
+}

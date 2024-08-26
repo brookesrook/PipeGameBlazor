@@ -1,0 +1,38 @@
+@page "/gamecomponent"
+
+<canvas id="gameCanvas" width="500" height="500" @ref="canvasElement" @onclick="HandleClick"></canvas>
+
+@code {
+    private ElementReference canvasElement;
+    private Context2D? context2D;
+
+    [Inject]
+    private IJSRuntime JS { get; set; } = default!;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            context2D = new Context2D(canvasElement, 10, 10, JS);
+            await context2D.InitializeAsync();
+            await context2D.StartAsync();
+
+            // Prevent context menu from opening on right-click
+            await JS.InvokeVoidAsync("addEventListener", canvasElement, "contextmenu", EventCallback.Factory.Create(this, (e) => e.PreventDefault()));
+        }
+    }
+
+    private async Task HandleClick(MouseEventArgs e)
+    {
+        if (context2D != null)
+        {
+            await context2D.ClickAsync(e.Button, (int)e.ClientX, (int)e.ClientY, OnWin);
+        }
+    }
+
+    private Task OnWin()
+    {
+        // Handle win condition
+        return Task.CompletedTask;
+    }
+}

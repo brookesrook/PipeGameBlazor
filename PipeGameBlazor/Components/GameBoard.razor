@@ -1,0 +1,50 @@
+@page "/gameboard"
+
+<canvas id="gameCanvas" width="500" height="500" @ref="canvasElement" @onclick="HandleClick"></canvas>
+
+@code {
+    private ElementReference canvasElement;
+    private Context2D? context2D;
+    private bool gameInitialized = false;
+
+    [Inject]
+    private IJSRuntime JS { get; set; } = default!;
+
+    [Parameter]
+    public EventCallback OnWin { get; set; }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await InitGame();
+        }
+    }
+
+    private async Task InitGame()
+    {
+        context2D = new Context2D(canvasElement, 10, 10, JS);
+        await context2D.InitializeAsync();
+        await context2D.StartAsync();
+        gameInitialized = true;
+
+        // Prevent context menu from opening on right-click
+        await JS.InvokeVoidAsync("addEventListener", canvasElement, "contextmenu", EventCallback.Factory.Create(this, (e) => e.PreventDefault()));
+    }
+
+    private async Task HandleClick(MouseEventArgs e)
+    {
+        if (gameInitialized && context2D != null)
+        {
+            await context2D.ClickAsync(e.Button, (int)e.ClientX, (int)e.ClientY, OnWinCallback);
+        }
+    }
+
+    private async Task OnWinCallback()
+    {
+        if (OnWin.HasDelegate)
+        {
+            await OnWin.InvokeAsync(null);
+        }
+    }
+}

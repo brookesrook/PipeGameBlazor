@@ -1,0 +1,75 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = PipeGameBlazor
+build_property.RootNamespace = PipeGameBlazor
+build_property.ProjectDir = C:\Users\Brooke\Documents\Portfolio\Pipe Game\PipeGameBlazor\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = false
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Brooke\Documents\Portfolio\Pipe Game\PipeGameBlazor
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Brooke/Documents/Portfolio/Pipe Game/PipeGameBlazor/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Brooke/Documents/Portfolio/Pipe Game/PipeGameBlazor/Components/ControlPanel.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250cm9sUGFuZWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Brooke/Documents/Portfolio/Pipe Game/PipeGameBlazor/Components/GameBoard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xHYW1lQm9hcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Brooke/Documents/Portfolio/Pipe Game/PipeGameBlazor/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Brooke/Documents/Portfolio/Pipe Game/PipeGameBlazor/Pages/GameComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZUNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Brooke/Documents/Portfolio/Pipe Game/PipeGameBlazor/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Brooke/Documents/Portfolio/Pipe Game/PipeGameBlazor/Pages/PipesCell.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGlwZXNDZWxsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Brooke/Documents/Portfolio/Pipe Game/PipeGameBlazor/Pages/PipesGame.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGlwZXNHYW1lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Brooke/Documents/Portfolio/Pipe Game/PipeGameBlazor/Pages/TimerComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGltZXJDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Brooke/Documents/Portfolio/Pipe Game/PipeGameBlazor/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Brooke/Documents/Portfolio/Pipe Game/PipeGameBlazor/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Brooke/Documents/Portfolio/Pipe Game/PipeGameBlazor/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-u02jyiy0na
+
+[C:/Users/Brooke/Documents/Portfolio/Pipe Game/PipeGameBlazor/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-yvbjg6jsyc
